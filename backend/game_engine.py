@@ -66,7 +66,7 @@ class GameEngine:
         
         return game_state
     
-    def _generate_random_terrain(self) -> 'GameField':
+    def _generate_random_terrain(self) -> GameField:
         """Generate a random 7x7 terrain field"""
         from models import GameField
         
