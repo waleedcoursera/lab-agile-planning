@@ -3,7 +3,7 @@ import random
 from typing import List, Dict, Optional, Tuple
 from motor.motor_asyncio import AsyncIOMotorDatabase
 from models import (
-    GameState, Player, FieldCard, Position, YugiohCard, 
+    GameState, Player, FieldCard, Position, YugiohCard, GameField,
     TerrainType, CardPosition, GamePhase, CardType, Race
 )
 from card_service import CardService
